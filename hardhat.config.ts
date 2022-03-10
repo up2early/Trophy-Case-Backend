@@ -16,7 +16,7 @@ module.exports = {
   },
   zkSyncDeploy: {
     zkSyncNetwork: "https://zksync2-testnet.zksync.dev",
-    ethNetwork: "goerli", // https://rpc.goerli.mudit.blog/ 
+    ethNetwork: "https://rpc.goerli.mudit.blog/"
   },
   solidity: {
     version: "0.8.10",

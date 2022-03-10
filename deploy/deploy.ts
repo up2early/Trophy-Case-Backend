@@ -8,12 +8,12 @@ import "secrets";
 export default async function (hre: HardhatRuntimeEnvironment) {
   console.log(`Running deploy script for the Greeter contract`);
 
-  // Initialize the wallet.
+  // Initialize the wallet. TODO: Find a way to use mnemonic from hardhat config
   const wallet = new Wallet(process.env.PRIVATE_KEY);
 
   // Create deployer object and load the artifact of the contract we want to deploy.
   const deployer = new Deployer(hre, wallet);
-  const artifact = await deployer.loadArtifact("Greeter");
+  const artifact = await deployer.loadArtifact("TrophyCase");
 
   // Deposit some funds to L2 in order to be able to perform L2 transactions.
   const depositAmount = ethers.utils.parseEther("0.001");
