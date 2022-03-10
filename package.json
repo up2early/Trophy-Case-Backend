@@ -1,0 +1,16 @@
+{
+  "name": "wallet_tracker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "up2early <wakeup2early@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@matterlabs/hardhat-zksync-deploy": "^0.1.3",
+    "@matterlabs/hardhat-zksync-solc": "^0.2.4",
+    "ethers": "^5.5.4",
+    "hardhat": "^2.9.1",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2",
+    "zksync-web3": "^0.3.5"
+  }
+}
