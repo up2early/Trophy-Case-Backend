@@ -2359,6 +2359,11 @@ secp256k1@^4.0.1:
     node-addon-api "^2.0.0"
     node-gyp-build "^4.2.0"
 
+secrets@^1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/secrets/-/secrets-1.1.5.tgz#ec89481baab86f8a3d10dd989479808d77afec58"
+  integrity sha512-mRLug8yiqc+UzRYBq7F9e3d8HY/h1/8uMcGNmGUXcPBuC2x4njkPAaZc04+iOYaaapWRUU2M5tJTeq5Q6zCbIg==
+
 semaphore-async-await@^1.5.1:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/semaphore-async-await/-/semaphore-async-await-1.5.1.tgz#857bef5e3644601ca4b9570b87e9df5ca12974fa"
